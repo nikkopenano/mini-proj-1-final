@@ -113,6 +113,7 @@ section{
 
 #menu-btn{
     display: none;
+    
 }
 
 .header .search-form{
@@ -238,6 +239,13 @@ section{
     flex-wrap: wrap;
 }
 
+.about .content h5{
+    font-size: 2rem;
+    font-weight: lighter;
+    line-height: 1.8;
+    padding:1rem 0;
+    color:#eee;
+}
 .about .row .image{
     flex:1 1 45rem;
 }
@@ -300,7 +308,7 @@ section{
     background:#fff;
 }
 
-.pre-build .box-container .box:hover > *{
+.components.box-container .box:hover > *{
     color:var(--black);
 }
 
@@ -449,54 +457,54 @@ section{
     background:none;
 }
 
-.manufacturers .box-container{
+.manufacturer .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap:1.5rem;
 }
 
-.manufacturers .box-container .box{
+.manufacturer .box-container .box{
     border:var(--border);    
 }
 
-.manufacturers .box-container .box .image{
+.manufacturer .box-container .box .image{
     height: 25rem;
     overflow:hidden;
     width: 100%;
 }
 
-.manufacturers .box-container .box .image img{
+.manufacturer .box-container .box .image img{
     height: 100%;
     object-fit: cover;
     width: 100%;
 }
 
-.manufacturers .box-container .box:hover .image img{
+.manufacturer .box-container .box:hover .image img{
     transform: scale(1.2);
 }
 
-.manufacturers .box-container .box .content{
+.manufacturer .box-container .box .content{
     padding:2rem;
 }
 
-.manufacturers .box-container .box .content .title{
+.manufacturer .box-container .box .content .title{
     font-size: 2.5rem;
     line-height: 1.5;
     color:#fff;
 }
 
-.manufacturers .box-container .box .content .title:hover{
+.manufacturer .box-container .box .content .title:hover{
     color:var(--main-color);
 }
 
-.manufacturers .box-container .box .content span{
+.manufacturer .box-container .box .content span{
     color:var(--main-color);
     display: block;
     padding-top: 1rem;
     font-size: 2rem;
 }
 
-.manufacturers .box-container .box .content p{
+.manufacturer .box-container .box .content p{
     font-size: 1.6rem;
     line-height: 1.8;
     color:#ccc;

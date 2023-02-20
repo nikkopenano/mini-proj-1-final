@@ -1,0 +1,70 @@
+:root{
+    --main-color:#d3ad7f;
+    --black:#000000;
+    --bg:#010103;
+    --border:.1rem solid rgba(255,255,255,.3);
+}
+
+body{
+    background: var(--bg);
+}
+
+.processor .heading{
+    color: #ffffff;
+    text-align: center;
+}
+.processor .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap:1.5rem;
+}
+
+.processor .box-container .box{
+    padding:5rem;
+    text-align: center;
+    border:var(--border);   
+}
+
+.processor .box-container .box img{
+    height: 10rem;
+}
+
+.processor .box-container .box h3{
+    color: #000000;
+    font-size: 2rem;
+    padding:1rem 0;
+}
+
+.processor .box-container .box {
+    color: #373737;
+    font-size: 2.5rem;
+    padding:.5rem 0;
+}
+
+.processor .box-container .box .price span{
+    font-size: 1.5rem;
+    text-decoration: line-through;
+    font-weight: lighter;
+}
+
+.processor .box-container .box:hover{
+    background:#909090;
+}
+
+.processor .box-container .box:hover > *{
+    color:var(--black);
+}
+
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding:.9rem 3rem;
+    font-size: 1.7rem;
+    color:#fff;
+    background: var(--main-color);
+    cursor: pointer;
+}
+
+.btn:hover{
+    letter-spacing: .2rem;
+}
