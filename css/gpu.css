@@ -9,6 +9,10 @@ body{
     background: var(--bg);
 }
 
+section{
+    padding:2rem 7%;
+}
+
 .gpu .heading{
     color: #fff;
     text-align: center;

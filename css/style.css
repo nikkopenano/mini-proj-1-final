@@ -305,7 +305,7 @@ section{
 }
 
 .components .box-container .box:hover{
-    background:#fff;
+    background:#8f8e8e;
 }
 
 .components.box-container .box:hover > *{

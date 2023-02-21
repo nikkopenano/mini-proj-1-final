@@ -9,6 +9,10 @@ body{
     background: var(--bg);
 }
 
+section{
+    padding:2rem 7%;
+}
+
 .Motherboard .heading{
     color: aliceblue;
     text-align: center;
@@ -31,7 +35,7 @@ body{
     align-items: center;
 }
 
-.Motherboard .box-container .box h3{
+.Motherboard .box-container .box h6{
     color: #000000;
     font-size: 2rem;
     padding:1rem 0;
